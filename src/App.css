@@ -96,6 +96,24 @@ body {
   .header {
     padding: 1.5rem 0.5rem 1rem 0.5rem;
   }
+  
+  .introduction-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .introduction-text {
+    padding-right: 0;
+  }
+  
+  .introduction-image {
+    flex: 0 0 auto;
+    order: -1;
+  }
+  
+  .intro-image {
+    max-width: 250px;
+  }
 }
 
 /* About Me section styling */
@@ -157,6 +175,45 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.introduction-text p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.introduction-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.introduction-text {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.introduction-image {
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.intro-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.intro-image:hover {
+  transform: scale(1.02);
 }
 
 /* Sources Cited section styling */

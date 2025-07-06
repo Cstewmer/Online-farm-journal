@@ -24,8 +24,18 @@ function App() {
       <div className="introduction-container">
         <div className="introduction">
           <h2>Introduction to EAP (Equine Assisted Psychotherapy)</h2>
-          <p>Equine-Assisted Psychotherapy (referred to hereafter as EAP) is an emerging yet increasingly popular form of therapy used as a tool either independently or in conjunction with other methods "that helps clients of all ages address behavioral, emotional, spiritual, and relational issues using horses as an interventional tool." (Mandrell, 2014) While it's difficult to say exactly when working with horses was first used as a mental health tool (as humans have been working with horses for decades), the idea was widely popularized by a book called "The Horse Boy", published in 2009 by Rupert Isaacson. Since then, numerous studies on the effectiveness of EAP have been and continue to be performed, with many showing positive results. (Burgon, 2015)</p>
-          <br />
+          <div className="introduction-content">
+            <div className="introduction-text">
+              <p>Equine-Assisted Psychotherapy (referred to hereafter as EAP) is an emerging yet increasingly popular form of therapy used as a tool either independently or in conjunction with other methods "that helps clients of all ages address behavioral, emotional, spiritual, and relational issues using horses as an interventional tool." (Mandrell, 2014) While it's difficult to say exactly when working with horses was first used as a mental health tool (as humans have been working with horses for decades), the idea was widely popularized by a book called "The Horse Boy", published in 2009 by Rupert Isaacson. Since then, numerous studies on the effectiveness of EAP have been and continue to be performed, with many showing positive results. (Burgon, 2015)</p>
+            </div>
+            <div className="introduction-image">
+              <img 
+                src="./introduction-image.jfif" 
+                alt="Equine Therapy Introduction" 
+                className="intro-image"
+              />
+            </div>
+          </div>
           <p>While recently EAP has become recognizable to a wider audience, there are still many misconceptions surrounding the practice, and as such I'd like to begin my background by clarifying what EAP isn't. It isn't therapy for the horse that happens to benefit the human working with it, it isn't physical therapy or hippotherapy (which is a method of therapy aiming to treat neurological/muscular disorders using the movements involved in riding a horse), and it isn't instilling character in an adolescent by tasking them with the responsibilities of raising a horse. (Mandrell, 2014)</p>
           <br />
           <p>Instead, EAP is a series of deliberately chosen and professionally guided activities that are designed to help a client confront and work through emotional and behavioral difficulties and to develop healthy skills and habits. These activities can vary widely, but a few examples are feeding, grooming, and leading the horse around a paddock. (Whitborne, 2022) Because horses are known to be extremely intelligent and emotional creatures and often mirror the emotions of their handler, they can help a client develop skills such as empathy, vulnerability, and self-exploration without having the fear of judgement that can sometimes come with a traditional therapy setting. Being able to work with a large and sometimes intimidating animal can also do a lot to further a clients self-esteem and ability to trust. (Burgon, 2015)</p>
