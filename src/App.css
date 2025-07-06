@@ -27,7 +27,7 @@ body {
 
 .header {
   padding: 3rem 2rem 2rem 2rem;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #ffffff 100%);
   border-bottom: 1px solid #e9ecef;
 }
 
@@ -71,35 +71,6 @@ body {
 .banner-image:hover {
   transform: scale(1.02);
 }
-
-/* To control percentage from top, use: object-position: 0% [percentage] */
-/* Examples:
-   object-position: 0% 0%;     - Shows the very top of the image
-   object-position: 0% 25%;     - Shows 25% down from the top
-   object-position: 0% 50%;     - Shows 50% down from the top (middle vertically)
-   object-position: 0% 75%;     - Shows 75% down from the top
-   object-position: 0% 100%;    - Shows the very bottom of the image
-   
-   You can also use keywords:
-   object-position: 0% top;     - Same as 0% 0%
-   object-position: 0% center;  - Same as 0% 50%
-   object-position: 0% bottom;  - Same as 0% 100%
-*/
-
-/* Alternative object-position values you can use:
-   object-position: center;        - Shows the center of the image
-   object-position: top;           - Shows the top of the image
-   object-position: bottom;        - Shows the bottom of the image
-   object-position: left;          - Shows the left side of the image
-   object-position: right;         - Shows the right side of the image
-   object-position: top left;      - Shows the top-left corner
-   object-position: top right;     - Shows the top-right corner
-   object-position: bottom left;   - Shows the bottom-left corner
-   object-position: bottom right;  - Shows the bottom-right corner
-   object-position: 25% 75%;       - Shows 25% from left, 75% from top
-   object-position: 0% 0%;         - Shows the very top-left
-   object-position: 100% 100%;     - Shows the very bottom-right
-*/
 
 /* Responsive design */
 @media (max-width: 768px) {
@@ -158,3 +129,63 @@ body {
   padding: 0 1rem;
 }
 
+.introduction-container {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+}
+
+.introduction h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.introduction p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a5568;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Sources Cited section styling */
+.sources-container {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+}
+
+.sources h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sources p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a5568;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
