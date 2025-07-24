@@ -93,6 +93,16 @@ function App() {
           <p>(Healing Reins Equine-Assisted Services)</p>
         </div>
       </div>
+      <div className="legislation-container">
+        <div className="legislation">
+          <h2>Legislation</h2>
+          <p>Equine-Assisted therapy has only been around a short time. While institutions began offering certifications for things like “riding for the handicapped”, certifications for Equine-Assisted Services (like Equine-Assisted Psychotherapy) weren’t officially offered until 2018. (PATH, Our History Page)</p>
+          <br />
+          <p>Because it’s so new and because of the stigmas that currently surround treatments like EAP, local and national governments are still working out the best way to implement legislation and regulation on those who are currently practicing or are seeking to practice EAP. That being said, there have already been several steps taken towards regulation that aims at ensuring consistency and safety across all Equine-Assisted Psychotherapy, as well as increasing access to those seeking treatment. A recent Minnesota bill provided thousands of dollars of funding to increase access to EAP to first responders after one of their policemen saw life-changing results (Stevens, M., & Cook, M. ) In 2020 the House of Representatives passed a similar bill extending EAP access to veterans that were suffering from Post Traumatic Stress Disorder (Barr, Andy). While institutions like PATH Intl. and the International Association of Human-Animal Interaction Organizations (IAHAIO) have established specific guidelines for Equine-Specialists and the Mental Health Professionals they work with, there is currently no governmental oversight or regulations for Equine-Assisted Therapy other than the general rules governing all mental health practitioners (such as needing to be certified and accountable to a board or similar governing body.) (PATH, Certifications Page)</p>
+          <br />
+          <p>Likely because Equine-Assisted Services are still somewhat novel, there hasn’t been very much support or oversight from official government organizations. However, as the practice becomes more established and credible, I expect there will be a greater push to regulate the practice, as well as make it available to more clients. The results from Equine-Assisted Therapy are undeniable – while it’s not for everyone (I don’t think any mental health solution is) it certainly can and will benefit many individuals. It is up to us to dispel any misconceptions around Equine-Assisted Therapy and it’s credibility, spread awareness of this treatment to those who haven’t heard of it but could greatly benefit from it, and to work with local and regional governments to ensure that the practice is kept safe, high quality, and available to as many individuals as possible.</p>
+        </div>
+      </div>
       <div className="sources-container">
         <div className="sources">
           <h2>Sources Cited</h2>
@@ -111,6 +121,12 @@ function App() {
           <p>How to get certified in the EAGALA model of equine therapy. Eagala. (2025, June 24). https://www.eagala.org/blog/how-to-become-a-certified-equine-assisted-psychotherapist/#:~:text=Pursue%20relevant%20education%20in%20fields,qualify%20to%20certify%20with%20Eagala.</p>
           <br />
           <p>University, U. S. (n.d.). EAS: Equine: Advs. USU. https://agnr.usu.edu/advs/equine/equine-assisted-services/certificate</p>
+          <br />
+          <p>Historic Veterans Suicide Prevention Bill with Barr Equine Therapy Priorities Passes the House of Representatives. https://barr.house.gov/2020/9/historic-veterans-suicide-prevention-bill-with-barr-equine-therapy-priorities-passes-the-house-of-representatives#:~:text=September%2025%2C%202020,facilitating%20veteran%20suicide%20prevention%20programs.</p>
+          <br />
+          <p>Stevens, M., & Cook, M. (n.d.). Bill seeks funding to expand equine therapy for First Responders. Bill seeks funding to expand equine therapy for first responders - Session Daily - Minnesota House of Representatives. https://www.house.mn.gov/sessiondaily/Story/18494#:~:text=The%20House%20Workforce%2C%20Labor%2C%20and,have%20remained%20on%20the%20job.</p>
+          <br />
+          <p>Our history | path intl. (n.d.-a). https://pathintl.org/about/history/</p>
         </div>
       </div>
     </div>
